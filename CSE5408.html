@@ -1,0 +1,165 @@
+<!--
+<!DOCTYPE html>
+<html>
+<body>
+<body style="background-color:rgb(153, 233, 160);">
+
+<img src="C:\Users\Pedro\Downloads\What-Are-Plants.jpg" width="500" height="300">
+<h1 style="font-family:verdanam ; text-align:center; font-size:300%;" >CSE 5408 Project</h1>
+<p>The purpose of this project is to get similar with webbrower and ultimately finish the proect </p>
+<a href="https://github.com/P3dro11/CSEWebsite">Folder for the project</a>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.city {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="city">
+<h2>Water in the tank</h2>
+<p>This will let you know how much is left</p>
+</div> 
+
+<div class="city">
+<h2>Moisture level</h2>
+<p>This will let you how's the moisture</p>
+</div>
+
+<div class="city">
+<h2>Schedule for watering </h2>
+<p>Based on the user, this is their Schedule watering time.</p>
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Style the element with the id "myHeader" */
+#myHeader {
+  background-color: lightgreen;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+ An element with a unique id 
+<h1 id="myHeader">Hello username ...</h1>
+ Multiple elements with same class 
+<h2 class="city">London</h2>
+<p>London is the capital of England.</p>
+<h2 class="city">Paris</h2>
+<p>Paris is the capital of France.</p>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif; background: lightgreen;
+}
+
+/* Style the header */
+.header {
+  background-color: lightgreen;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  background-color: lightgreen;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: lightgreen;
+  padding: 600px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Local weather
+    <!-- Start WX Widget Code -->
+    <div style="color: #455052; min-width: 250px; width: 100%; 
+    border: 1px solid #428bca; 
+    background-image: radial-gradient(circle, #fff, #f5faff, #e5efff);
+    ;">
+      <script src="https://www.weatherwx.com/weather-js-vert/us/ca/indio.js"></script>
+    </div><!-- End WX Widget Code -->
+  </h2>
+</div>
+
+<div class="row">
+  <div class="column";
+ style="border-radius: 8px; background-color: white; padding: 10px; 
+  text-align:center;">Soil moisture</div>
+
+
+  <div class="column";
+  style="border-radius: 8px; background-color: white; padding: 10px;
+  text-align:center;">Amount of water</div>
+
+  <div class="column" 
+  style="background-color: lightgreen;
+  text-align: center">Plant condition</div>
+</div>
+
+<div class="footer">
+  <p>maybe graphs </p>
+</div>
+
+
+
+
+
+
+</body>
+</html>
